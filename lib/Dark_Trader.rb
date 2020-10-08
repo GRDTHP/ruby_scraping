@@ -42,10 +42,3 @@ crypto_scrapper
 puts cour_table
 
 
-#symbol_et_valeur = Hash[symbol_crypto.zip(valeur_crypto)]
-
-#	a = []
-#
-#	a = [symbol_et_valeur]
-
-#	puts a

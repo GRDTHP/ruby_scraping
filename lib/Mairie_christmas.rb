@@ -6,7 +6,6 @@ require 'nokogiri'
 #Method to count and classify city name's. 
 
 
-
 # first part: give the city hall mail. 
 def get_townhall_email(townhall_url)
 
@@ -48,15 +47,10 @@ def get_townhall_url_scrapper
 		i = i + 1
 		arry << email_table
 	end
-	 
-	
 
 	puts arry
-	
 	
 end
 
 get_townhall_url_scrapper
 
-get_townhall_email
-puts arry
